@@ -1,2 +1,2 @@
-# careconnect
-FNB Hackathon - Care Connect
+# Remote-care
+FNB Hackathon
