@@ -26,7 +26,12 @@ const AppointmentForm = () => {
   return (
     <section className="font-comfortaa py-20 px-20 bg-gray text-black">
       <div className="container mx-auto px-8">
-        <h2 className="text-3xl font-bold text-left mb-20 text-nude text-overline">Book an Appointment</h2>
+      <h2 className="text-3xl font-bold text-left mb-20 text-nude relative pb-2">
+       <span className="absolute left-0 top-0 w-60 h-1 bg-current -translate-y-3"></span>
+         Book an Appointment
+     </h2>
+
+
         
         <div className="flex flex-col md:flex-row md:space-x-8">
          
