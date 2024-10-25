@@ -1,10 +1,21 @@
 import React from 'react';
+import Navbar from '../components/Navbar';
+import DoctorInfoCard from '../components/DoctorInfoCard';
+import ConsultationTypeSelector from '../components/ConsultationType';
+import ChatWindow from '../components/ChatWindow';
+import VoiceCall from '../components/VoiceCall';
+import Footer from '../components/Footer';
 
 const ConsultationPage = () => {
   return (
     <div>
-      <h1>Consultation</h1>
-      <p>Connect with doctors here for telemedicine consultations.</p>
+      <Navbar />
+      <DoctorInfoCard />
+      <ConsultationTypeSelector />
+      <ChatWindow />
+      <VoiceCall />
+      <Footer />
+
     </div>
   );
 }
