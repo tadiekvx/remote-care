@@ -1,10 +1,24 @@
 import React from 'react';
+import Navbar from '../components/Navbar';
+import HeroSection from '../components/HeroSection';
+import StatsSection from '../components/StatsSection';
+import BenefitsSection from '../components/BenefitsSection';
+import FeaturesSection from '../components/FeaturesSection';
+import TestimonialsSection from '../components/TestimonialsSection';
+import Footer from '../components/Footer';
+import FAQSection from '../components/FAQSection';
 
 const HomePage = () => {
   return (
-    <div>
-      <h1>Welcome to the Homepage</h1>
-      <p>This is where you can find all the basic information about our app.</p>
+    <div className="min-h-screen bg-gray font-comfortaa">
+      <Navbar />
+      <HeroSection />
+      <StatsSection />
+      <BenefitsSection />
+      <FeaturesSection />
+      <TestimonialsSection />
+      <FAQSection />
+      <Footer />
     </div>
   );
 }
